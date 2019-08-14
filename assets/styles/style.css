@@ -3,6 +3,7 @@ body {
     font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif; 
     background-image: url(../images/px_by_Gre3g_@2X.png);
     color: #777777;
+    width: 1024px;
 }
 
 .navbar {
@@ -59,23 +60,34 @@ h1 {
 hr{
     height: 5px;
     background: #cccccc;
-    margin: 5px;
+    margin: auto;
 }
  
 
  img {
     width: 184px;
     height: auto;
+    border: 0;
+    border-radius: 5px;
 }
 
 .btn {
     background: #4aaaa5;
     border: none;
 }
+
+h4 {
+    opacity: .8;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 50px;
+    color: #ffffff;
+    padding:0;
+    margin:0;
+
+}
 /* 
-#portContainer {
-    margin: 0 auto;
-    padding: 0 auto;
+.badge {
+    padding-bottom: 0 auto;
+    margin-bottom: 0 auto;
 } */
-
-
