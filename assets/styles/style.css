@@ -1,9 +1,7 @@
 body {
-  margin: auto;
   font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   background-image: url(../images/px_by_Gre3g_@2X.png);
   color: #777777;
-
 }
 
 .container {
@@ -12,7 +10,6 @@ body {
 } 
 
 .navbar {
-  margin: 0 auto;
   padding-bottom: 0;
   background-color: #ffffff;
   border-bottom: 2px solid #777777;
@@ -71,7 +68,7 @@ h1 {
 
 .card {
   max-width: 960px;
-  margin: 100px;
+  margin: 100px; 
 }
 
 /*Footer Styling*/
@@ -97,9 +94,8 @@ hr {
   margin: auto;
 }
 
-.badge {
+img {
   width: 184px;
-  height: auto;
 
 } 
 
