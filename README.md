@@ -1,18 +1,38 @@
-# Boostrap-Portfolio
-## Basic Portfolio using Bootstrap
-##[Bootstrap Portfolio](https://armonkahil.github.io/Bootstrap-Portfolio/)
+# Project Starter
 
-Here were have a basic portfolio using the responsive Bootstrap 4 framework.
-Assignment One Instructions (Bootstrap)
+In this activity we will add the provided boilerplate to group project repos.
 
+## Instructions
 
-Inside your Bootstrap-Portfolio repo, create index.html, portfolio.html and contact.html.
-Using Bootstrap, recreate your portfolio site with the following items:
-- A navbar
-- A responsive layout (remember the grid, rows and columns are your friends)
-- eg. On an xs screen, content should take up the entire screen. On sm and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
-- Responsive images
-- BONUS
-  - Using Bootstrap, make a sticky footer and use sub-rows and sub-columns on your portfolio site (Hint: Check out the Bootstrap documentation)
-- Your Bootstrap solution should minimize use of media queries.
-- Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+* Only one member of each group should complete this activity while the others watch.
+
+* Copy the entire [Unsolved](Unsolved) folder to another location on your computers &mdash; wherever you would like your local copy of the group project to be.
+
+* Rename the copied "Unsolved" folder to the name of your project.
+
+* Open the copied project folder's `package.json` file and change its `name` property to the name of your project.
+
+* CD to the root of the copied project folder with your terminal and run the following commands:
+
+  ```
+  git init
+  git add .
+  git commit -m "Initial commit"
+  ```
+
+* Then copy the GitHub repo's remote SSH URL (the same URL you'd use to clone the repo).
+
+* Run the following commands in your terminal, replacing <remote-url> with your GitHub repo's remote SSH URL.
+
+  ```
+  git remote add origin <remote-url>
+  git push origin master
+  ```
+
+* If completed successfully you should see all of the files uploaded to GitHub.
+
+* All other group members should now clone the repo.
+
+* Discuss as a group:
+
+  * How would you now add changes to this project?
